@@ -13,4 +13,8 @@ require_once("Ukk_Azzis/Kuli.php");
 
 //menjalankan aplikasi ukk_azzis
 $apl = new Ukk_Azzis\Kuli();
+<<<<<<< HEAD
 $apl->jalan(APLIKASI_UKK, APLIKASI_LIB_UKK);
+=======
+$apl->jalan(APLIKASI_UKK, APLIKASI_LIB_UKK);
+>>>>>>> 108bd4de034fb9b52f07ba226e75cedf061f6d7a

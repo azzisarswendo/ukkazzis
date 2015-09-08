@@ -6,6 +6,7 @@ class Kuli {
 
     //untuk menjalankan aplikasi ukk_azzis
     public function jalan($dir_apl_ukk, $dir_lib_ukk){
+<<<<<<< HEAD
         $app = $dir_apl_ukk;
         $this->konfig($dir_apl_ukk);
         $this->ambil($dir_lib_ukk . "/Ukk_Azzis");
@@ -13,6 +14,12 @@ class Kuli {
     }
     
     ///untuk pengambilan semua data aplikasi ukk_azzis
+=======
+        $this->konfig($dir_apl_ukk);
+        $this->ambil($dir_lib_ukk . "/Ukk_Azzis");
+    }
+    
+>>>>>>> 108bd4de034fb9b52f07ba226e75cedf061f6d7a
     private function ambil($dir_lib_ukk){
         $data = glob($dir_lib_ukk . "/*");
         foreach ($data as $lib){
